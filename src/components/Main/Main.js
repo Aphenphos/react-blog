@@ -1,5 +1,6 @@
 import { useBlogs } from '../../hooks/useBlogs';
 import BlogCard from '../BlogCard/BlogCard';
+import './Main.css';
 
 export default function Main() {
   const blogs = useBlogs();
