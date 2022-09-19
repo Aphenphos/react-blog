@@ -8,7 +8,6 @@ export function useBlogs() {
   useEffect(() => {
     async function fetchBlogs() {
       const b = await getBlogs();
-      console.log(b);
       setBlogs(b);
     }
     fetchBlogs();
